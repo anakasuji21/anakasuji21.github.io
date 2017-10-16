@@ -15,12 +15,6 @@ h1{
 }
 
 
-h3{
-	padding-top: 10px; 
-	text-align: right;
-	padding-right: 5%;
-	padding-left: 12%; 
-}
 
 p{
 	padding-top: 25px; 
@@ -29,11 +23,11 @@ p{
 	font-size: 20px; 
 }
 
-.p1{
-	padding-top: 25px; 
+.p1{ 
 	font: sans-serif;
-	text-align: left;
-	font-size: 20px; 
+	float: right;
+	font-size: 15px; 
+	padding-left: 40%;
 }
 
 a-box{
@@ -108,7 +102,7 @@ img{
 #profile{
 	height: 300px; 
 	width: 300px; 
-	position: absolute; top: 130px; left:60px;   
+	position: absolute; top: 0px; left:0px;   
 	border-radius: 8px;
 	border: 1px dashed #ddd; 
 } 
