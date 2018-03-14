@@ -5,7 +5,7 @@
  */
 
 body {
-  padding-top: 54px;
+ 
 }
 
 @media (min-width: 992px) {
@@ -15,5 +15,5 @@ body {
 }
 
 p{
-	font-size: 12.5px;
+	font-size: 18px;
 }
