@@ -19,6 +19,7 @@ p{
 	font: sans-serif;
 	text-align: left;
 	font-size: 20px;
+  padding-left: 10%; 
 }
 
 .p1{
@@ -170,6 +171,12 @@ li a:hover {
 hr{
 	padding: 1px;
 
+}
+
+/* 下sidebar2 */
+
+.container {
+	padding-left: 10%;
 }
 
 #sidebar2 ul {
