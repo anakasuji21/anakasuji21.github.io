@@ -15,11 +15,10 @@ h1{
 
 
 p{
-
+  padding-left: 10%;
 	font: sans-serif;
 	text-align: left;
 	font-size: 20px;
-  padding-left: 10%;
 }
 
 .p1{
@@ -177,7 +176,7 @@ hr{
 
 /*.container {
 	padding-left: 10%;
-} */ 
+} */
 
 #sidebar2 ul {
     list-style-type: none;
