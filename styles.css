@@ -1,5 +1,5 @@
 /* body{
-	background-color: #FBEEE6; 
+	background-color: #FBEEE6;
 } */
 
 body {
@@ -15,16 +15,16 @@ h1{
 
 
 p{
- 
+
 	font: sans-serif;
 	text-align: left;
-	font-size: 20px; 
+	font-size: 20px;
 }
 
-.p1{ 
+.p1{
 	font: sans-serif;
 	float: right;
-	font-size: 15px; 
+	font-size: 15px;
 	padding-left: 40%;
 }
 
@@ -35,8 +35,8 @@ p{
 
 a-box{
 	border-radius: 10px;
-	color: red; 
-} 
+	color: red;
+}
 
 
 .haikei {
@@ -50,8 +50,8 @@ background-color:#FBEEE6;
       border:3px dashed #3081F8;
       border-radius: 10px;
       padding-left: 10%;
-      padding-top: 120px;  
-      /*float: left; 
+      padding-top: 120px;
+      /*float: left;
       /*background-color: #FFFDFD; */
       }
 
@@ -62,80 +62,80 @@ background-color:#FBEEE6;
     /* background:#ced; */
     border:3px dashed #3081F8;
     border-radius: 10px;
-    padding-left: 10%; 
-    padding-top: 20px; 
+    padding-left: 10%;
+    padding-top: 20px;
 	/*float: right;
-	/*background-color: #FBEEE6;  */ 
+	/*background-color: #FBEEE6;  */
     }
 
 
 /* .boxinbox{
 	border:3px dashed black;
 	padding-top: 10%;
-	padding-left: 10%; 
-	position: absolute; top: 350px; left:60px; 
+	padding-left: 10%;
+	position: absolute; top: 350px; left:60px;
 	width: 75px;
 	height: 75px;
 
-} */ 
+} */
 
 /*img{
-	height: 450px; 
-	width: 600px; 
+	height: 450px;
+	width: 600px;
 	border-radius: 8px;
 	border: 1px dashed #ddd;
 } */
 
 .photo{
-	height: 100px; 
-	width: 100px; 
+	height: 100px;
+	width: 100px;
 	border-radius: 8px;
 	border: 1px dashed #ddd;
 }
 
 .picture{
-	height: 100px; 
-	width: 100px; 
-	position: absolute; top: 470px;  left: 350px 
+	height: 100px;
+	width: 100px;
+	position: absolute; top: 470px;  left: 350px
 }
 
 .mitou-group{
 	position: absolute; top: 200px; left:30px;
 }
 #profile{
-	height: 300px; 
-	width: 300px; 
-	position: absolute; top: 0px; left:0px;   
+	height: 300px;
+	width: 300px;
+	position: absolute; top: 0px; left:0px;
 	border-radius: 8px;
-	border: 1px dashed #ddd; 
-} 
+	border: 1px dashed #ddd;
+}
 
 #food{
-	height: 150px; 
+	height: 150px;
 	width: 150px;
-	position: absolute; top: 250px;   
+	position: absolute; top: 250px;
 }
 
 #fll{
-	height: 150px; 
-	width: 200px; 
-	position: absolute; top: 250px;  left: 300px 
+	height: 150px;
+	width: 200px;
+	position: absolute; top: 250px;  left: 300px
 }
 
 #food2{
-	height: 150px; 
-	width: 150px; 
-	position: absolute; top: 250px;  left: 550px 
+	height: 150px;
+	width: 150px;
+	position: absolute; top: 250px;  left: 550px
 }
 #cello2{
-	height: 150px; 
-	width: 150px; 
-	position: absolute; top: 250px;  left: 750px 
+	height: 150px;
+	width: 150px;
+	position: absolute; top: 250px;  left: 750px
 }
 #light{
-	height: 150px; 
-	width: 150px; 
-	position: absolute; top: 250px;  left: 950px 
+	height: 150px;
+	width: 150px;
+	position: absolute; top: 250px;  left: 950px
 }
 
 
@@ -172,6 +172,20 @@ hr{
 
 }
 
+#sidebar2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 10%;
+    background-color: #34495e;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
 
-
-
+#sidebar2 li a {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
