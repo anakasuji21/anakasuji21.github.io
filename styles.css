@@ -174,24 +174,26 @@ hr{
 
 /* 下sidebar2 */
 
-/*.container {
-	padding-left: 10%;
-} */
+.container {
+	/*padding-left: 10%; */
+  float: right;
+}
 
 #sidebar2 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    width: 10%;
+    padding:0;
+    width: 8%;
     background-color: #34495e;
     height: 100%; /* Full height */
-    position: fixed; /* Make it stick, even on scroll */
+    position: fixed;/* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    align-self: right;
 }
 
 #sidebar2 li a {
     display: block;
     color: #fff;
-    padding: 8px 16px;
+    padding: 6px 10px;
     text-decoration: none;
 }
