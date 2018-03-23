@@ -15,9 +15,6 @@ h1{
 
 
 p{
-  padding-left: 10%;
-	font: sans-serif;
-	text-align: left;
 	font-size: 20px;
 }
 
@@ -43,30 +40,30 @@ a-box{
 background-color:#FBEEE6;
 }
 
-.sample-box{
+/* .sample-box{
       width:75%;
       height:500px;
-      /* background:#ced; */
+      /* background:#ced;
       border:3px dashed #3081F8;
       border-radius: 10px;
       padding-left: 10%;
       padding-top: 120px;
       /*float: left;
-      /*background-color: #FFFDFD; */
-      }
+      /*background-color: #FFFDFD;
+      }  */
 
-.sample-box2{
-	/*padding-left: 500px; */
+/* .sample-box2{
+	/*padding-left: 500px;
     width:75%;
     height:500px;
-    /* background:#ced; */
+    /* background:#ced;
     border:3px dashed #3081F8;
     border-radius: 10px;
     padding-left: 10%;
     padding-top: 20px;
 	/*float: right;
-	/*background-color: #FBEEE6;  */
-    }
+	/*background-color: #FBEEE6;
+    } */
 
 
 /* .boxinbox{
@@ -183,16 +180,12 @@ hr{
     list-style-type: none;
     margin: 0;
     padding:0;
-    width: 8%;
-    background-color: #34495e;
+    width: 10%;
+    background-color: #5499C7;
     height: 100%; /* Full height */
     position: fixed;/* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
     text-align: right;
-}
-
-#sidebar2 li{
-  float: right;
 }
 
 #sidebar2 li a {
